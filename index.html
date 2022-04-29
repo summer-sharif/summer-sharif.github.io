@@ -5,35 +5,65 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- links to style sheets, google fonts, etc. go here -->
-
   </head>
   <body>
-  <style>
-    body div { border: 1px solid red; }
-  </style>
 <!-- start of nav and header -->
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-12 border text-center">
-          <img src="./images/shariflogo.png" class="img-fluid" alt="logo">
-          <img src="./images/shoppingbag.png" class="img-fluid p-3" alt="logo">
-        </div>
-        <div class="col-sm-6">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#"><img src="./images/shariflogo.png" class="img-fluid" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Shop
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Deisgners</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Our Company</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Search</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sign In</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><img src="./images/shoppingbag.png" class="img-fluid text-center" alt="logo"></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <div class="col-sm-6 p-0">
           <img src="./images/HeaderPic.jpg" class="img-fluid" alt="ringsheaderpic">
         </div>
-        <div class="col-sm-6 border p-5">
-          Start Shopping
+        <div class="col-sm-6 p-0 border p-5">
+          Start Shopping our beautiful wedding band collecting including brands like Tacori, Verragio and more.
         </div>
-        <div class="col-sm-3 border">
+        <div class="col-sm-3 border col-6">
           <img src="./images/browsering.jpg" class="img-fluid p-5" alt="ringbrowse">
         </div>
-        <div class="col-sm-3 border">
+        <div class="col-sm-3 border col-6">
           <img src="./images/browsehoops.jpg" class="img-fluid p-5" alt="earringsbrowse">
         </div>
-        <div class="col-sm-3 border">
+        <div class="col-sm-3 border col-6">
           <img src="./images/browsenecklace.jpg" class="img-fluid p-5" alt="necklacebrowse">
         </div>
-        <div class="col-sm-3 border">
+        <div class="col-sm-3 border col-6">
           <img src="./images/browsewatch.jpg" class="img-fluid p-5" alt="watchbrowse" >
         </div>
       </div>
@@ -45,16 +75,16 @@
     <div class="-container-fluid">
       <div class="row">
         <div class="col-sm-6 border p-5">
-          Diamond Buying guide type
+          Diamond Buying guide Learn more about the 4C’s and the features of a diamond that determine its quality.
         </div>
         <div class="col-sm-6 border text-center p-3">
           <img src="./images/diamondguide.jpg" alt="diamondguide" class="img-fluid">
         </div>
-        <div class="col-sm-6 border text-center p-3">
+        <div class="col-sm-6 border text-center p-2">
           <img src="./images/coffee.jpg" class="img-fluid" alt="coffeepic">
         </div>
         <div class="col-sm-6 border p-5">
-          coffee type
+          Join Us for a Cup of Coffee Come in and try Sharif's famous coffee, fresh mint tea, and decadent sweets and enjoy a welcoming Sharif experience.
         </div>
       </div>
     </div>
@@ -63,9 +93,21 @@
 <!-- start of footer,socials -->
    <div class= "containerfluid">
      <div class= "row">
-       <div class="col-sm-12 border">
-         Footer
+      <div class="col-sm-2 border col-6">
+         All Designers
        </div>
+       <div class="col-sm-2 border col-6">
+          Our Company
+        </div>
+        <div class="col-sm-2 border col-6">
+           Locations
+         </div>
+         <div class="col-sm-2 border col-6">
+            Support
+          </div>
+          <div class="col-sm-4 border col-12">
+             Get Exclusive Offers and News
+           </div>
        <div class="col-sm-12 border">
          <img src="./images/twitter.png" class="img-fluid p-1" alt="twitter">
          <img src="./images/facebook.png" class="img-fluid p-1" alt="twitter">
