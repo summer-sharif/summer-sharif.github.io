@@ -9,16 +9,51 @@
 
 </head>
 <body>
-  <style>
-    body div { border: 1px solid red; }
-  </style>
   <!-- start of nav  -->
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-12 border text-center">
-            <img src="./images/shariflogo.png" class="img-fluid" alt="logo">
-            <img src="./images/shoppingbag.png" class="img-fluid p-3" alt="shopping">
-          </div>
+          <nav class="navbar navbar-expand-lg navbar-light">
+
+            <a class="navbar-brand" href="#"><img src="./images/shariflogo.png" class="img-fluid p-0" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Shop
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Engagemnet Rings</a></li>
+                        <li><a class="dropdown-item" href="#">Wedding Bands</a></li>
+                        <li><a class="dropdown-item" href="#">Timepeieces</a></li>
+                        <li><a class="dropdown-item" href="file:///Users/summer/Documents/GitHub/summer-sharif.github.io/detail.html#">Fashion Jewelry</a></li>
+                        <li><a class="dropdown-item" href="#">Diamonds</a></li>
+                      </ul>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Designers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Our Company</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Search</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sign In</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="./images/shoppingbag.png" class="img-fluid p-0" alt="logo"></a>
+                  </li>
+                </ul>
+              </div>
+
+            </nav>
         </div>
       </div>
       <!-- End of nav  -->
@@ -26,26 +61,57 @@
       <!-- Preview pics  -->
       <div class="container">
         <div class="row">
-          <div class="col-sm-1 border">
+          <div class="col-sm-1 border col-2">
             <img src="./images/smallnecklace.jpg" class="img-fluid" alt="previewpic">
           </div>
-          <div class="col-sm-5 border">
+          <div class="col-sm-5 border col-10">
             <img src="./images/bignecklace.jpg" class="img-fluid" alt="previewpic">
           </div>
-          <div class="col-sm-6 border p-3">
-            Item info
+          <div class="col-sm-6 border p-3 col-12">
+            <h4>Tacori Gemma Bloom</h4>
+            Silver Bloom Necklace featuring Neo-Turquoise
+            <h6>$250</h6>
+            <h6>Item Details</h6>
+            Let your style shine through with this breathtaking gemstone, pendant, solitaire necklace from Tacori. A minimalist cable (standard) chain caresses your neck for a comfortable wear. This sterling silver (925) necklace is adaptable and a statement piece. Brilliant topaz stones imbue a splash of color to the piece. A complex bezel setting secures the round stones.
+            <div class="row">
+              <div class="col-sm-6 border">
+                <ul class="list-unstyled">
+                    <li>Model Number: SN14002</li>
+                    <li>Stones Type: Topaz</li>
+                    <li>Stones Shape: Round</li>
+                    <li>Necklace Length: 18”</li>
+                    <li>Product Type: Necklaces</li>
+                </ul>
+              </div>
+              <div class="col-sm-6 border">
+                <ul class="list-unstyled">
+                    <li>Number of Strands: 1</li>
+                    <li>Metal Type: Sterling Silver (925)</li>
+                    <li>Stones Setting: Bezel</li>
+                    <li>Chain Type: Cable (standard)</li>
+                    <li>Collection: Gemma Bloom</li>
+                </ul>
+                </div>
+            </div>
           </div>
-          <div class="col-sm-3 border">
+          <div class="col-sm-12 border">
+             Other items you may like
+           </div>
+          <div class="col-sm-3 border col-6">
             <img src="./images/bluering.jpg" class="img-fluid p-4" alt="ringbrowse">
+            Tacori Crescent Embrace Ring
           </div>
-          <div class="col-sm-3 border">
+          <div class="col-sm-3 border col-6">
             <img src="./images/bluebracelet.jpg" class="img-fluid p-4" alt="earringsbrowse">
+            Tacori Crescent Embrace Bracelet
           </div>
-          <div class="col-sm-3 border">
+          <div class="col-sm-3 border col-6">
             <img src="./images/bluenecklace.jpg" class="img-fluid p-4" alt="necklacebrowse">
+            Tacori Crescent Embrace Necklace
           </div>
-          <div class="col-sm-3 border">
+          <div class="col-sm-3 border col-6">
             <img src="./images/blueearrings.jpg" class="img-fluid p-4" alt="watchbrowse" >
+            Tacori Crescent Embrace Earrings
           </div>
         </div>
       </div>
@@ -53,9 +119,21 @@
       <!-- start of footer,socials -->
          <div class= "containerfluid">
            <div class= "row">
-             <div class="col-sm-12 border">
-               Footer
-             </div>
+             <div class="col-sm-2 border col-6">
+                All Designers
+              </div>
+              <div class="col-sm-2 border col-6">
+                 Our Company
+               </div>
+               <div class="col-sm-2 border col-6">
+                  Locations
+                </div>
+                <div class="col-sm-2 border col-6">
+                   Support
+                 </div>
+                 <div class="col-sm-4 border col-12">
+                    Get Exclusive Offers and News
+                </div>
              <div class="col-sm-12 border">
                <img src="./images/twitter.png" class="img-fluid p-1" alt="twitter">
                <img src="./images/facebook.png" class="img-fluid p-1" alt="twitter">
