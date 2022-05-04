@@ -1,17 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@100&display=swap');
 
 
 body {
-  background: lightblue url("../images/HeaderPic.jpg") no-repeat right top;
-  color: white
+  background-color: #F1EDE5;
 }
 
-h1, h3 {
-  font-family: 'Raleway';
-  color: darkorange;
+nav{
+  background-color: white
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat';
   }
 
-  .sidebar {
-    color: yellow;
-    margin: 100px;
-  }
+h5{
+  margin-top: 30px
+}
+
+#footer{
+  color: white;
+  font-weight: lighter;
+  font-size: 12px;
+  line-height: 1.2;
+  align-items: center;
+
+}
+
+.cheese{
+  color: ;
+}
+
+.details{
+  padding-top: 50px;
+  font-size: 12px;
+
+}
+
+.button1{
+  width: 265px;
+}
+
+.button2{
+  width: 300px;
+}
+
+.itemdetails{
+  padding-top: 50px;
+}
