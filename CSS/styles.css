@@ -24,7 +24,6 @@ h5{
   font-size: 12px;
   line-height: 1.2;
   align-items: center;
-
 }
 
 .cheese{
@@ -47,4 +46,18 @@ h5{
 
 .itemdetails{
   padding-top: 50px;
+}
+
+.headerbody{
+  font-weight: lighter;
+  margin: 50px;
+}
+
+.Header{
+  padding-top: 50px;
+}
+
+.exclusive {
+  height: 25px;
+  width: 250px;
 }
