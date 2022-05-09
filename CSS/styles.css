@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@100&display=swap');
 
 body {
   background-color: #F1EDE5;
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+
+
+.bg-danger{
+  background-color: #AE1913 !important;
+
 }
 
 nav{
@@ -14,13 +21,15 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Montserrat';
   }
 
+
+
 h5{
   margin-top: 30px
 }
 
 #footer{
   color: white;
-  font-weight: lighter;
+  font-family: "Montserrat", lighter;
   font-size: 12px;
   line-height: 1.2;
   align-items: center;
@@ -50,7 +59,7 @@ h5{
 
 .headerbody{
   font-weight: lighter;
-  margin: 50px;
+  font-size: 20px
 }
 
 .Header{
